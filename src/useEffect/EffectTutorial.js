@@ -2,6 +2,8 @@
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 
+// EffectTutorial = componente
+
 function EffectTutorial() {
   const [data, setData] = useState("");
   const [count, setCount] = useState(0);

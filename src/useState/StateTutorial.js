@@ -1,7 +1,9 @@
 import { useState } from "react";
 import React from 'react';
 
-function Componente () {
+//StateTutorial = Componente;
+
+function StateTutorial () {
     const[counter, setCounter] = useState(0);
 
     const increment = () => {
@@ -16,4 +18,4 @@ function Componente () {
   )
 }
 
-export default Componente;
+export default StateTutorial;

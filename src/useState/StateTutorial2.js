@@ -1,7 +1,9 @@
 import { useState } from "react";
 import React from 'react';
 
-function Componente () {
+// StateTutorial2 = componente
+
+function StateTutorial2 () {
     const[inputValue, setInputValue] = useState("Pedro");
 
     const onChange = () => {
@@ -18,4 +20,4 @@ function Componente () {
   );
 };
 
-export default Componente;
+export default StateTutorial2;
